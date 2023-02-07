@@ -1,0 +1,149 @@
+* {
+    font-family: Helvetica;
+    margin: 0;
+   
+}
+
+body {
+    background-color: #ccc;
+}
+
+#navbar {
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+#navbar ul li {
+    margin-left: 1em;
+    font-style: none;
+    padding: 10px;
+    background-color: #ccc;
+    border: 3px solid rgba(121, 119, 119, 0.733);
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+}
+
+h1, h3 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.form {
+    width: 450px;
+    margin: 100px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.btn {
+    padding: 10px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background: rgba(38, 219, 38, 0.733);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(31, 165, 31, 0.733);;
+}
+
+.link {
+    text-decoration: none;
+    margin-left: 1em;
+    font-style: none;
+    padding: 5px;
+    background-color: #ccc;
+    color: blue;
+    border: 3px solid rgba(121, 119, 119, 0.733);
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.link-remover {
+    text-decoration: none;
+    margin-left: 1em;
+    font-style: none;
+    padding: 10px;
+    background-color: #ccc;
+    color: blue;
+    border: 3px solid rgba(121, 119, 119, 0.733);
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.books-container {
+    width: 450px;
+    margin: 100px auto;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5em;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+.form-control input {
+    padding: 5px;
+}
+
+/* books */
+.books-container div {
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+}
+
+.link-books {
+    text-decoration: none;
+}
+
+.bold {
+    font-weight: bold; 
+}
+
+/* book */
+
+#book .container {
+    text-align: center;
+}
+
+/* actions */
+.actions {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 1em;
+}
+
+.actions a, input {
+    margin-left: 1em;
+}
+
